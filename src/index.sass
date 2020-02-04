@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap')
+
+html body
+    font-family: "Noto Sans Japanese", Avenir, Verdana, Roboto, "Droid Sans", 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif !important
+
+p
+    font-size: 14px
+
+hr
+    width: 80px
+    border: 1px solid #777
+    border-radius: 100px
+    margin: -0.5rem auto 1rem
+
+// === Basic CSS helpers for Spacing ===
+.margin-top 
+    margin-top: 1rem
+
+.margin-top-2 
+    margin-top: 2rem
+
+.margin-top-10px 
+    margin-top: 10px
+
+.margin-bottom 
+    margin-bottom: 1rem
+
+.padding-1
+    padding: 1rem
+
+.padding-2
+    padding: 2rem
+
+.min-width-1
+    min-width: 300px
+
+@media screen and (min-width:768px) 
+    .max-width-1
+        max-width: 370px
+        margin: auto
+
+// === Basic CSS helpers for Alignments ===
+
+.text-align-center 
+    text-align: center
+
+
+.align-self-center 
+    align-self: center
+
+
+.inline-block 
+    display: inline-block
+
+.is-flex
+    display: flex
+
+.is-vcentered 
+    align-items: center
+
+.is-hcentered 
+    justify-content: center
+
+.is-grid 
+    align-items: center
+    display: grid
+
+@media screen and (max-width:768px) 
+    .reverse 
+        display: flex
+        flex-direction: column-reverse
+    
+
+
+// === Basic CSS helpers for Text Decoration ===
+
+.color-yellow
+    color: #f1c000
+
+.color-white
+    color: #fff
+
+.hovered-color-primary:hover
+    background-color: #e6666652
+    border-radius: 5px
+
+
+.marker-pen 
+    background: linear-gradient(transparent 60%, #ffe999 0%)
+    display: inline
+
+
+.heading-1 
+    border-radius: 4px
+    background-color: powderblue
+    padding: 12px
+    display: inline-block
+
+
+.heading-2 
+    position: relative
+    color: white
+    background: #81d0cb
+    line-height: 1.4
+    padding: 0.5em 0.5em 0.5em 1.8em
+    display: inline-block
+    border-radius: 8px
+
+.heading-2:before 
+    font-family: "Font Awesome 5 Free"
+    content: "\f14a"
+    position: absolute
+    left : 0.5em /*左端からのアイコンまでの距離*/
+
+
+.heading-3 
+  position: relative
+  padding: 0.25em 0.55em
+  border-top: solid 2px #666
+  border-bottom: solid 2px #666
+
+.heading-3:before, .heading-3:after 
+  content: ''
+  position: absolute
+  top: -7px
+  width: 2px
+  height: -webkit-calc(100% + 14px)
+  height: calc(100% + 14px)
+  background-color: #666
+
+.heading-3:before 
+  left: 7px
+
+.heading-3:after 
+  right: 7px
+
+
+.listify::before 
+    content: "• "
+
+
+
+// Make the first letter big
+.first-letter 
+    line-height: 2rem
+
+.first-letter:first-letter 
+    font-size: 2em
+    color: #7172ac
+
+
+
+
+// === Other Basic CSS helpers ===
+
+.position-relative 
+    position: relative
+
+
+.border-radius 
+    border-radius: 4px
+
+
+img.profile-picture 
+    border-radius: 999px
+    height: 100px
+    width: 100px
+
+.overflow-scroll
+    overflow: scroll
+
+// === Styles for Components ===
+
+.is-hero 
+    height: 90vh
+    display: flex
+    align-items: center
+
+.bg-hero 
+    background-image: url("")
+    background-size: cover
+    background-position-y: top
+    background-position-x: right
+
+#myCanvas
+    height: 90vh
+    width: 100%
+    position: absolute
+
+.has-background-classic-blue
+    background-color: #0f4c81
+.has-background-lightblue
+    background-color: #0f4c811a
+
+header.blogheader-top
+    display: block
+
+a.footer-item
+    color: white
+
+iframe.map
+    height: 450px
+
+
+
+// for blog 
+
+.blog-title
+    background-color: #0f4c81
+    color: #fff !important
+    padding: 1.5rem
+    border-radius: 4px
+    line-height: 3rem
+
+.blog-disc
+    font-size: 16px
+    line-height: 2rem
+    padding: 1rem
+
+
+.blog-content h2
+    font-size: 24px
+    font-weight: 100
+    line-height: 2rem
+    color: #333
+    border-left: 6px #e66666 solid
+    padding: 0.5rem
+    background-color: #f0f8ff
+    margin-top: 4.5rem !important
+
+.blog-content h3
+    font-size: 23px
+    font-weight: 100
+    width: fit-content
+    background: linear-gradient(transparent 86%, #eaaaaa 80%)
+    padding-top: 1.2rem
+
+.blog-content h4
+    font-size: 21px
+    font-weight: 100
+    width: fit-content
+    background: linear-gradient(transparent 86%, #e5fe8c 80%)
+    padding-top: 1.2rem
+
+.blog-content p > a
+    position: relative
+    border: solid 2px #e66666
+    padding: 0.8em 0.5em
+    margin: 2em 0 0.5em
+    display: inline-block
+    border-radius: 8px
+    font-weight: 600
+    transition: .2s
+    
+.blog-content p > a:after
+    position: absolute
+    content: 'LINK→'
+    background: #e66666
+    color: #fff
+    left: 12px
+    bottom: 100%
+    border-radius: 5px 5px 0 0
+    padding: 5px 7px 3px
+    font-size: 12px
+    line-height: 1
+    letter-spacing: 3px
+
+.blog-content p > a:hover
+    background-color: #e66666
+    color: #fff
+
+
+.blog-content p > span.gatsby-resp-image-wrapper
+    margin-left: 0px !important
+    img
+        border-radius: 4px
+
+
+
+.blog-content > div > table
+    border: 2px solid darkgrey
+    border-radius: 4px
+    padding: 16px
+
+.blog-content p
+    font-size: 16px
+    line-height: 2rem
+
+.blog-content th
+    padding: 0 12px
+
+.blog-content td
+    padding: 12px
+    border-top: 1px dashed darkseagreen
+
+.blog-content blockquote
+    border-left: 4px solid #ddd
+    padding-left: 1rem
+    margin-left: 1rem
+    border-radius: 2px
+    
