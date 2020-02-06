@@ -3,6 +3,7 @@ import React from 'react'
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
 import About from '../components/About'
+import Questions from '../components/Questions'
 import News from '../components/News'
 import Features from '../components/Features'
 import Locations from '../components/Locations'
@@ -12,7 +13,7 @@ import("../../src/index.sass")
 const Tetete = (props) => {
 
     // Display blog posts only for Japanese.
-    const isEnglish = (props.path == "/en/") ? true : false
+    const isEnglish = (props.path === "/en/") ? true : false
 
     return (
     <Layout>
@@ -20,6 +21,7 @@ const Tetete = (props) => {
         {isEnglish ? "" : <News /> }
         <div className="margin-top-2" />
         <About />
+        <Questions />
         <Locations />
         <Features />
     </Layout>

@@ -7,7 +7,7 @@ const GoogleMap = (props) => {
                 <div className="columns">
                     <div className="column">
                         <figure className="image has-text-centered">
-                            <iframe className="map" src={props.src} width="600" height="450" frameBorder="0"></iframe>
+                            <iframe className="map" src={props.src} width="600" height="450" frameBorder="0" title="map"></iframe>
                         </figure>
                     </div>
                 </div>

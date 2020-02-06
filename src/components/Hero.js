@@ -28,12 +28,17 @@ const Hero = () => {
                 <div className="columns is-vcentered">
                     <div className="hero-text column">
                         <h1 className="title color-white is-size-2">
-                            <span className="inline-block">GuestHouse</span>
-                            <span className="inline-block">&nbsp;Storyshare</span>
+                            <span className="inline-block">Vivixx</span>
+                            <span className="inline-block">&nbsp;Coding</span>
+                            <span className="inline-block">Bootcamp</span>
                         </h1>
                         <h2 className="subtitle is-6 color-white has-text-weight-bold">
-                            <span className="inline-block">&nbsp;ゲストハウス</span>
-                            <span className="inline-block">&nbsp;ストーリーシェア</span>
+                            <span className="inline-block">
+                                <FormattedMessage id="hero-subtitle04" />
+                            </span>
+                            <span className="inline-block">
+                                <FormattedMessage id="hero-subtitle05" />
+                            </span>
                         </h2>
                         <h2 className="subtitle color-white">
                             <FormattedMessage id="hero-subtitle01" />

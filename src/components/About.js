@@ -1,7 +1,7 @@
 import React from 'react'
 import { useIntl, FormattedMessage } from "gatsby-plugin-intl"
 //
-import about from '../img/bg-1.jpg'
+import about from '../img/bg-1.png'
 
 
 const About = () => {
@@ -14,7 +14,7 @@ const About = () => {
                         {/* blank space here */}
                     </div>
                     <div className="column">
-                        <h2 className="title has-text-centered">
+                        <h2 className="title has-text-centered is-size-4">
                             <span className="inline-block">
                                 <FormattedMessage id="about-heading01" />
                             </span>
@@ -25,7 +25,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="columns">
-                    <div className="column is-6">
+                    <div className="column is-6 has-text-centered align-self-center">
                         <img className="border-radius" src={about} alt="about" />
                     </div>
                     <div className="column max-width-1">

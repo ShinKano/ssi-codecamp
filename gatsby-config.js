@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     siteUrl: 'https://www.ss-guesthouse.com/',
-    title: 'セブ島のゲストハウスならストーリーシェア【公式】（Guesthouse Storyshare）',
+    title: '超集中ブートキャンプ式の格安プログラミング学習 - VivixxCodingCamp',
     description:
-      'フィリピン・セブ島・バギオに展開するゲストハウス。完全個室・専用バスルーム付きで旅人やバックパッカーの安心で安全な旅をサポート。格安ホテルより自由で過ごしやすい！',
+      '未経験からのプログラミング学習は、フィリピンで効率良く最短で習得がオススメ。短期・集中コースだから格安。認定講師が教えるアメリカ式のブートキャンプスタイルで身に付く実践的プログラミングスクールです。 アメリカなど海外企業でのインターンもカリキュラムに含まれるので実務経験にも繋がる。',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
