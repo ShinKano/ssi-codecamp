@@ -42,7 +42,7 @@ const Questions = () => {
                 </div>
 
                 <div className="columns is-centered margin-top">
-                    <div className="column is-10 has-text-centered">
+                    <div className="column is-8">
                         <p>
                             <FormattedMessage id="questions-disc01" />
                         </p>
@@ -62,7 +62,7 @@ const Questions = () => {
                 </div>
 
                 <div className="columns margin-top is-centered">
-                    <div className="column is-10">
+                    <div className="column is-8">
                         <p className="title is-size-6">
                             <span className="inline-block">
                                 <FormattedMessage id="questions-disc04" />
