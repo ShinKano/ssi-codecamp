@@ -6,7 +6,7 @@ import About from '../components/About'
 import Questions from '../components/Questions'
 import News from '../components/News'
 import Features from '../components/Features'
-import Locations from '../components/Locations'
+import Feature from '../components/Feature'
 
 import("../../src/index.sass")
 
@@ -22,7 +22,7 @@ const Tetete = (props) => {
         <div className="margin-top-2" />
         <About />
         <Questions />
-        <Locations />
+        <Feature />
         <Features />
     </Layout>
     )

@@ -12,7 +12,7 @@ const BackgroundImage = styled.section`
     /* background-image: url(${bgImage}); */
     background-position: center;
     background-size: cover;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     align-items: center;
 `

@@ -1,10 +1,9 @@
 import React from 'react'
-import { useIntl, FormattedMessage } from "gatsby-plugin-intl"
+import { FormattedMessage } from "gatsby-plugin-intl"
 //
 import countries from '../img/countries.png'
 
 const Questions = () => {
-    const intl = useIntl()
     return (
         <section className="section has-background-lightblue">
             <div className="container">
@@ -23,22 +22,22 @@ const Questions = () => {
 
                 <div className="columns margin-top">
                     <div className="column">
-                        <h3 className="title has-text-centered is-size-4">
+                        <p className="title has-text-centered is-size-5">
                             <span className="inline-block">
                                 <FormattedMessage id="questions-subheading01" />
                             </span>
                             <span className="inline-block">
                                 <FormattedMessage id="questions-subheading02" />
                             </span>
-                        </h3>
-                        <h3 className="title has-text-centered is-size-4">
+                        </p>
+                        <p className="title has-text-centered is-size-5">
                             <span className="inline-block">
                                 <FormattedMessage id="questions-subheading03" />
                             </span>
                             <span className="inline-block">
                                 <FormattedMessage id="questions-subheading04" />
                             </span>
-                        </h3>
+                        </p>
                     </div>
                 </div>
 
@@ -60,7 +59,19 @@ const Questions = () => {
                     <div className="column has-text-centered align-self-center">
                         <img className="border-radius" src={countries} alt="countries" />
                     </div>
+                </div>
 
+                <div className="columns margin-top is-centered">
+                    <div className="column is-10">
+                        <p className="title is-size-6">
+                            <span className="inline-block">
+                                <FormattedMessage id="questions-disc04" />
+                            </span>
+                            <span className="inline-block">
+                                <FormattedMessage id="questions-disc05" />
+                            </span>
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
