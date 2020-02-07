@@ -12,9 +12,10 @@ import calle02 from '../img/calle02.jpg'
 import calle03 from '../img/calle03.jpeg'
 import calle04 from '../img/calle04.jpg'
 import calle05 from '../img/calle05.jpg'
+import calle06 from '../img/calle06.png'
 import ittools from '../img/it-tools.png'
 import gloval from '../img/gloval.png'
-import baguio01 from '../img/baguio01.jpg'
+
 
 
 const Feature = () => {
@@ -168,7 +169,7 @@ const Feature = () => {
                 <div className="columns reverse margin-top-2">
                     <div className="column is-6">
                         <Gallery_1_2
-                            img1={baguio01}
+                            img1={calle06}
                             img2={calle05}
                             img3={ace}
                         />

@@ -106,7 +106,7 @@ const Curriculums = () => {
                     </div>
                 </div>
 
-                <div className="columns margin-top-2  is-centered">
+                <div className="columns margin-top-2 is-centered">
                     <div className="column is-10 columns is-multiline has-background-white border-radius">
                         {otherCurriculums.map(other => (
                             <div className="column is-half">
