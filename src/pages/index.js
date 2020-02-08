@@ -9,6 +9,10 @@ import Feature from '../components/Feature'
 import Curriculums from '../components/Curriculums'
 import Trainer from '../components/Trainer'
 import Place from '../components/Place'
+import Fee from '../components/Fee'
+import Scholarship from '../components/Scholarship'
+import Worry from '../components/Worry'
+import Closing from '../components/Closing'
 
 import("../../src/index.sass")
 
@@ -28,6 +32,10 @@ const Tetete = (props) => {
         <Curriculums />
         <Trainer />
         <Place />
+        <Fee />
+        <Scholarship />
+        <Worry />
+        <Closing />
     </Layout>
     )
 }

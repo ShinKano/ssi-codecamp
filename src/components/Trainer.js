@@ -28,7 +28,7 @@ const Trainer = () => {
                                 <img className="border-radius" src={jason} alt="jason bruno" />
                             </figure>
                         </div>
-                        <div className="column is-7">
+                        <div className="column is-7 max-width-1">
                             <h3 className="subtitle is-3 has-text-centered">Jason Bruno</h3>
                             <p>
                                 <FormattedMessage id="jason-desc" />

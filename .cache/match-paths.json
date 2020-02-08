@@ -1,21 +1,5 @@
 [
     {
-        "path": "/ja/calender/2020/Jan/",
-        "matchPath": "/ja/calender/2020/Jan/"
-    },
-    {
-        "path": "/en/calender/2020/Jan/",
-        "matchPath": "/en/calender/2020/Jan/"
-    },
-    {
-        "path": "/ja/calender/2020/Feb/",
-        "matchPath": "/ja/calender/2020/Feb/"
-    },
-    {
-        "path": "/en/calender/2020/Feb/",
-        "matchPath": "/en/calender/2020/Feb/"
-    },
-    {
         "path": "/ja/contact/thanks/",
         "matchPath": "/ja/contact/thanks/"
     },
@@ -160,28 +144,12 @@
         "matchPath": "/en/tags/"
     },
     {
-        "path": "/ja/rooms/",
-        "matchPath": "/ja/rooms/"
-    },
-    {
-        "path": "/en/rooms/",
-        "matchPath": "/en/rooms/"
-    },
-    {
         "path": "/ja/contact/",
         "matchPath": "/ja/contact/"
     },
     {
         "path": "/en/contact/",
         "matchPath": "/en/contact/"
-    },
-    {
-        "path": "/ja/calender/",
-        "matchPath": "/ja/calender/"
-    },
-    {
-        "path": "/en/calender/",
-        "matchPath": "/en/calender/"
     },
     {
         "path": "/ja/blog/",

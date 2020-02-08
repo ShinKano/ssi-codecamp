@@ -40,7 +40,7 @@ export default class Index extends React.Component {
     return (
       <Layout>
         <section className="section">
-          <div className="container">
+          <div className="container margin-top-2">
             <div className="content">
               <h1><FormattedMessage id="contact-title" /></h1>
               <form
@@ -91,50 +91,77 @@ export default class Index extends React.Component {
                 </div>
 
                 <div className="field">
-                  <label className="label" htmlFor={'email'}>
-                    <FormattedMessage id="contact-checkin-date" />
-                  </label>
                   <div className="control">
                     <input
-                      className="input"
-                      type={'date'}
-                      name={'checkin'}
+                      type={'checkbox'}
+                      name={'checkbox01'}
                       onChange={this.handleChange}
-                      id={'checkin'}
+                      id={'email'}
                       required={false}
                     />
+                    <label className="checkbox" htmlFor={'checkbox01'}>
+                        &nbsp;<FormattedMessage id="contact-checkbox01" />
+                  </label>
                   </div>
                 </div>
 
                 <div className="field">
-                  <label className="label" htmlFor={'email'}>
-                    <FormattedMessage id="contact-checkout-date" />
-                  </label>
                   <div className="control">
                     <input
-                      className="input"
-                      type={'date'}
-                      name={'checkout'}
+                      type={'checkbox'}
+                      name={'checkbox02'}
                       onChange={this.handleChange}
-                      id={'checkout'}
+                      id={'email'}
                       required={false}
                     />
+                    <label className="checkbox" htmlFor={'checkbox02'}>
+                        &nbsp;<FormattedMessage id="contact-checkbox02" />
+                  </label>
                   </div>
                 </div>
 
                 <div className="field">
-                  <label className="label" htmlFor={'email'}>
-                    <FormattedMessage id="contact-number-people" />
-                  </label>
                   <div className="control">
                     <input
-                      className="input"
-                      type={'number'}
-                      name={'people'}
+                      type={'checkbox'}
+                      name={'checkbox03'}
                       onChange={this.handleChange}
-                      id={'people'}
+                      id={'email'}
                       required={false}
                     />
+                    <label className="checkbox" htmlFor={'checkbox03'}>
+                        &nbsp;<FormattedMessage id="contact-checkbox03" />
+                  </label>
+                  </div>
+                </div>
+
+                <div className="field">
+                  <div className="control">
+                    <input
+                      type={'checkbox'}
+                      name={'checkbox04'}
+                      onChange={this.handleChange}
+                      id={'email'}
+                      required={false}
+                    />
+                    <label className="checkbox" htmlFor={'checkbox04'}>
+                        &nbsp;<FormattedMessage id="contact-checkbox04" />
+                  </label>
+                  </div>
+                </div>
+
+                <div className="field">
+                  <div className="control">
+                    <input
+                      type={'checkbox'}
+                      name={'checkbox05'}
+                      onChange={this.handleChange}
+                      id={'email'}
+                      required={false}
+                    />
+                    <label className="checkbox" htmlFor={'checkbox05'}>
+                        &nbsp;<FormattedMessage id="contact-checkbox05" />
+                  </label>
                   </div>
                 </div>
 
@@ -148,11 +175,12 @@ export default class Index extends React.Component {
                       name={'message'}
                       onChange={this.handleChange}
                       id={'message'}
-                      required={true}
+                      required={false}
                       placeholder={""}
                     />
                   </div>
                 </div>
+
                 <div className="field">
                   <button className="button is-link" type="submit">
                     <FormattedMessage id="submit" />

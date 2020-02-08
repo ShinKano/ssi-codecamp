@@ -109,7 +109,7 @@ const Curriculums = () => {
                 <div className="columns margin-top-2 is-centered">
                     <div className="column is-10 columns is-multiline has-background-white border-radius">
                         {otherCurriculums.map(other => (
-                            <div className="column is-half">
+                            <div className="column is-half" key={other.title}>
                                 <p className="title is-6 is-spaced">
                                     {other.title}
                                 </p>

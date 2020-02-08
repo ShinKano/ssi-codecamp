@@ -3,7 +3,7 @@ import React from 'react'
 import { Link, FormattedMessage } from "gatsby-plugin-intl"
 
 //
-import logo from '../img/logo.png'
+import logo from '../img/logo.jpg'
 import Language from '../components/language'
 
 const Navbar = class extends React.Component {
@@ -66,9 +66,7 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/rooms">
-                <FormattedMessage id="nav01" />
-              </Link>
+              
               <Link className="navbar-item" to="/blog">
                 <FormattedMessage id="nav02" />
               </Link>

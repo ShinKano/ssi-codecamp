@@ -1,5 +1,5 @@
 import React from 'react'
-import { FormattedMessage, useIntl } from "gatsby-plugin-intl"
+import { FormattedMessage } from "gatsby-plugin-intl"
 //
 import Button from '../elements/Button'
 //
@@ -8,7 +8,6 @@ import schedule from '../img/schedule.png'
 
 
 const Place = () => {
-    const intl = useIntl()
     return (
         <section className="section has-background-lightblue">
             <div className="container">
