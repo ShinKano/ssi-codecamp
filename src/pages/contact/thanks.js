@@ -5,7 +5,7 @@ import { FormattedMessage } from "gatsby-plugin-intl"
 export default () => (
   <Layout>
     <section className="section">
-      <div className="container">
+      <div className="container margin-top-2">
         <div className="content">
           <h1><FormattedMessage id="contact-thanks" /></h1>
           <p>
