@@ -27,6 +27,8 @@
   "static/fee04.png": "static/fee04-193c61d4bbdfd85597a562a9a031d66a.png",
   "static/fee05.png": "static/fee05-c5085d6258a85689e7452be9891f3dce.png",
   "static/fee06.png": "static/fee06-3535f96cfd0e284f6d2ca376a6b9700c.png",
+  "static/fee07.png": "static/fee07-43310746b490a90bc7486d85d657a261.png",
+  "static/fee08.png": "static/fee08-7a699cbd53235b47e8b2e66c45a3b902.png",
   "static/food.jpg": "static/food-8d9dd2f1b7b1ef5fffc7bbcc1106b9c5.jpg",
   "static/gloval.png": "static/gloval-5964078d68d9198a8ab183c84d81068d.png",
   "static/guadalupe_double.jpg": "static/guadalupe_double-f501d3da605cc09de36da61be116df80.jpg",
@@ -44,6 +46,7 @@
   "static/it-tools.png": "static/it-tools-c61a72d90467ad6916f87952c7da3e8c.png",
   "static/jason.png": "static/jason-bd66420a9ce4f75d5c561f985a451d19.png",
   "static/lesson.jpg": "static/lesson-4a7bb90214116e34c56f77f165691d87.jpg",
+  "static/logo.jpg": "static/logo-04cec7689694d531f4f3ace44cab71ee.jpg",
   "static/marathon.jpg": "static/marathon-3e0170232c85e8ff72d76d18811e8f25.jpg",
   "static/moterbike.jpg": "static/moterbike-1e959a3d09388436f282d6c032eb6446.jpg",
   "static/plus63.jpg": "static/plus63-ccade598b9160599c20765f5268bce2a.jpg",
@@ -51,5 +54,6 @@
   "static/sinulog01.jpg": "static/sinulog01-d9825ee7ac4d2a5d34c668a3dc4ed1c8.jpg",
   "static/tatto.png": "static/tatto-b0a5bb023ced3c34f327dc318e690873.png",
   "static/teachers.jpg": "static/teachers-f9f186a33fd27b39a721f1d72bc81695.jpg",
-  "static/templetour.jpg": "static/templetour-cdb5704a6c35b7371af0b709ba05e940.jpg"
+  "static/templetour.jpg": "static/templetour-cdb5704a6c35b7371af0b709ba05e940.jpg",
+  "static/worry02.jpg": "static/worry02-5812ee67e735beb4048b4ca7650b7798.jpg"
 }
