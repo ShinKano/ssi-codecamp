@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: 'https://codingbootcamp.club/',
-    title: '超集中ブートキャンプ式の格安プログラミング学習 - VivixxCodingCamp',
+    title: '超集中ブートキャンプ式のプログラミング留学 - VivixxCodingCamp',
     description:
       '未経験からのプログラミング学習は、フィリピンで効率良く最短で習得がオススメ。短期・集中コースだから格安。認定講師が教えるアメリカ式のブートキャンプスタイルで身に付く実践的プログラミングスクールです。 アメリカなど海外企業でのインターンもカリキュラムに含まれるので実務経験にも繋がる。',
   },

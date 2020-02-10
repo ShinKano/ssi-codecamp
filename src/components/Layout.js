@@ -48,10 +48,10 @@ const TemplateWrapper = ({ children }) => {
         
         <meta property="og:type" content="business.business" />
         <meta property="og:title" content={intl.formatMessage({ id: "title" })} />
-        <meta property="og:url" content="https://www.codingbootcamp.club/en/" />
+        <meta property="og:url" content={intl.formatMessage({ id: "og-url" })} />
         <meta
           property="og:image"
-          content={`https://www.ss-guesthouse.com/img/og-image001.png`}
+          content={`https://www.codingbootcamp.club/img/og.jpg`}
         />
         <meta name="google-site-verification" content="AtBXV62-NYJ_gWHW-q9hBGDC0iYSt3vkvl2r8lfcTac" />
         
