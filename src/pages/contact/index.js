@@ -91,6 +91,9 @@ export default class Index extends React.Component {
                 </div>
 
                 <div className="field">
+                  <label className="checkbox is-hidden" htmlFor={'checkbox01'}>
+                        &nbsp;<FormattedMessage id="contact-checkbox01" />
+                  </label>
                   <div className="control">
                     <input
                       type={'checkbox'}
@@ -99,13 +102,16 @@ export default class Index extends React.Component {
                       id={'email'}
                       required={false}
                     />
-                    <label className="checkbox" htmlFor={'checkbox01'}>
+                    <span>
                         &nbsp;<FormattedMessage id="contact-checkbox01" />
-                  </label>
+                    </span>
                   </div>
                 </div>
 
                 <div className="field">
+                  <label className="checkbox is-hidden" htmlFor={'checkbox02'}>
+                        &nbsp;<FormattedMessage id="contact-checkbox02" />
+                  </label>
                   <div className="control">
                     <input
                       type={'checkbox'}
@@ -114,13 +120,16 @@ export default class Index extends React.Component {
                       id={'email'}
                       required={false}
                     />
-                    <label className="checkbox" htmlFor={'checkbox02'}>
+                    <span>
                         &nbsp;<FormattedMessage id="contact-checkbox02" />
-                  </label>
+                    </span>
                   </div>
                 </div>
 
                 <div className="field">
+                    <label className="checkbox is-hidden" htmlFor={'checkbox03'}>
+                        &nbsp;<FormattedMessage id="contact-checkbox03" />
+                    </label>
                   <div className="control">
                     <input
                       type={'checkbox'}
@@ -129,13 +138,16 @@ export default class Index extends React.Component {
                       id={'email'}
                       required={false}
                     />
-                    <label className="checkbox" htmlFor={'checkbox03'}>
+                    <span>
                         &nbsp;<FormattedMessage id="contact-checkbox03" />
-                  </label>
+                    </span>
                   </div>
                 </div>
 
                 <div className="field">
+                    <label className="checkbox is-hidden" htmlFor={'checkbox04'}>
+                        &nbsp;<FormattedMessage id="contact-checkbox04" />
+                    </label>
                   <div className="control">
                     <input
                       type={'checkbox'}
@@ -144,17 +156,17 @@ export default class Index extends React.Component {
                       id={'email'}
                       required={false}
                     />
-                    <label className="checkbox" htmlFor={'checkbox04'}>
+                    <span>
                         &nbsp;<FormattedMessage id="contact-checkbox04" />
-                  </label>
+                    </span>
                   </div>
                 </div>
 
                 <div className="field">
-                  <div className="control">
                     <label className="checkbox is-hidden" htmlFor={'checkbox05'}>
                         &nbsp;<FormattedMessage id="contact-checkbox05" />
                     </label>
+                  <div className="control">
                     <input
                       type={'checkbox'}
                       name={'checkbox05'}
