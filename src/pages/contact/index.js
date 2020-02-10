@@ -1,6 +1,6 @@
 import React from 'react'
 import { navigate } from 'gatsby-link'
-import { FormattedMessage } from "gatsby-plugin-intl"
+import { FormattedMessage} from "gatsby-plugin-intl"
 //
 import Layout from '../../components/Layout'
 
@@ -36,6 +36,7 @@ export default class Index extends React.Component {
       .catch(error => alert(error))
   }
 
+  
   render() {
     return (
       <Layout>
@@ -90,7 +91,41 @@ export default class Index extends React.Component {
                   </div>
                 </div>
 
-                <div className="field">
+                <fieldset className="fieldset">
+                    <legend><FormattedMessage id="contact-checkbox-legend" /></legend>
+                    <p>
+                        <label>
+                            <input type="checkbox" name="checkbox01" value="とりあえず詳しい資料がほしい。" />
+                            <FormattedMessage id="contact-checkbox01" />
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input type="checkbox" name="checkbox02" value="バギオってどんなところか気になる。" />
+                            <FormattedMessage id="contact-checkbox02" />
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input type="checkbox" name="checkbox03" value="転職へのサポートについて知りたい。" />
+                            <FormattedMessage id="contact-checkbox03" />
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input type="checkbox" name="checkbox04" value="学生への留学サポートについて知りたい。" />
+                            <FormattedMessage id="contact-checkbox04" />
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input type="checkbox" name="checkbox05" value="その他" />
+                            <FormattedMessage id="contact-checkbox05" />
+                        </label>
+                    </p>
+                </fieldset>
+
+                {/* <div className="field">
                   <label className="label is-hidden" htmlFor={'checkbox01'}>
                         <FormattedMessage id="contact-checkbox01" />
                   </label>
@@ -173,9 +208,9 @@ export default class Index extends React.Component {
                         &nbsp;<FormattedMessage id="contact-checkbox05" />
                     </span>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="field">
+                <div className="field margin-top">
                   <label className="label" htmlFor={'message'}>
                     <FormattedMessage id="contact-message" />
                   </label>

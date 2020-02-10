@@ -148,9 +148,10 @@
 
     "contact-title": "お問い合わせ",
     "contact-name": "お名前",
+    "contact-checkbox-legend": "当てはまる内容を選択",
     "contact-checkbox01": "とりあえず詳しい資料がほしい",
     "contact-checkbox02": "バギオってどんなところか気になる",
-    "contact-checkbox03": "転職へのサポートについて知りたい",
+    "contact-checkbox03": "転職のサポートについて知りたい",
     "contact-checkbox04": "学生への留学サポートについて知りたい",
     "contact-checkbox05": "その他",
     "contact-message": "お問い合わせ内容（空欄でも大丈夫です）",
