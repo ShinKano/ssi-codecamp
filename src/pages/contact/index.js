@@ -94,32 +94,42 @@ export default class Index extends React.Component {
                 <fieldset className="fieldset">
                     <legend><FormattedMessage id="contact-checkbox-legend" /></legend>
                     <p>
-                        <label>
-                            <input type="checkbox" name="checkbox01" value="とりあえず詳しい資料がほしい。" />
+                        <label htmlFor={'checkbox01'}>
+                            <input type="checkbox"
+                                onChange={this.handleChange}
+                                name={'checkbox01'} value="とりあえず詳しい資料がほしい。" />
                             <FormattedMessage id="contact-checkbox01" />
                         </label>
                     </p>
                     <p>
-                        <label>
-                            <input type="checkbox" name="checkbox02" value="バギオってどんなところか気になる。" />
+                        <label htmlFor={'checkbox02'}>
+                            <input type="checkbox"
+                                onChange={this.handleChange}
+                                name={'checkbox02'} value="バギオってどんなところか気になる。" />
                             <FormattedMessage id="contact-checkbox02" />
                         </label>
                     </p>
                     <p>
-                        <label>
-                            <input type="checkbox" name="checkbox03" value="転職へのサポートについて知りたい。" />
+                        <label htmlFor={'checkbox03'}>
+                            <input type="checkbox"
+                                onChange={this.handleChange}
+                                name={'checkbox03'} value="転職へのサポートについて知りたい。" />
                             <FormattedMessage id="contact-checkbox03" />
                         </label>
                     </p>
                     <p>
-                        <label>
-                            <input type="checkbox" name="checkbox04" value="学生への留学サポートについて知りたい。" />
+                        <label htmlFor={'checkbox04'}>
+                            <input type="checkbox"
+                                onChange={this.handleChange}
+                                name={'checkbox04'} value="学生への留学サポートについて知りたい。" />
                             <FormattedMessage id="contact-checkbox04" />
                         </label>
                     </p>
                     <p>
-                        <label>
-                            <input type="checkbox" name="checkbox05" value="その他" />
+                        <label htmlFor={'checkbox05'}>
+                            <input type="checkbox"
+                                onChange={this.handleChange}
+                                name={'checkbox05'} value="その他" />
                             <FormattedMessage id="contact-checkbox05" />
                         </label>
                     </p>
