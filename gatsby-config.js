@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: 'https://www.ss-guesthouse.com/',
+    siteUrl: 'https://codingbootcamp.club/',
     title: '超集中ブートキャンプ式の格安プログラミング学習 - VivixxCodingCamp',
     description:
       '未経験からのプログラミング学習は、フィリピンで効率良く最短で習得がオススメ。短期・集中コースだから格安。認定講師が教えるアメリカ式のブートキャンプスタイルで身に付く実践的プログラミングスクールです。 アメリカなど海外企業でのインターンもカリキュラムに含まれるので実務経験にも繋がる。',
@@ -26,7 +26,7 @@ module.exports = {
     {
         resolve: `gatsby-plugin-google-analytics`,
         options: {
-          trackingId: "UA-88348543-2",
+          trackingId: "UA-102508487-2",
           // Defines where to place the tracking script - `true` in the head and `false` in the body
           head: true,
           // Avoids sending pageview hits from custom paths

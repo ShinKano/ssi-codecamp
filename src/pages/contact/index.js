@@ -91,15 +91,14 @@ export default class Index extends React.Component {
                 </div>
 
                 <div className="field">
-                  <label className="checkbox is-hidden" htmlFor={'checkbox01'}>
-                        &nbsp;<FormattedMessage id="contact-checkbox01" />
+                  <label className="label is-hidden" htmlFor={'checkbox01'}>
+                        <FormattedMessage id="contact-checkbox01" />
                   </label>
                   <div className="control">
                     <input
                       type={'checkbox'}
                       name={'checkbox01'}
                       onChange={this.handleChange}
-                      id={'email'}
                       required={false}
                     />
                     <span>
@@ -109,15 +108,14 @@ export default class Index extends React.Component {
                 </div>
 
                 <div className="field">
-                  <label className="checkbox is-hidden" htmlFor={'checkbox02'}>
-                        &nbsp;<FormattedMessage id="contact-checkbox02" />
+                  <label className="label is-hidden" htmlFor={'checkbox02'}>
+                        <FormattedMessage id="contact-checkbox02" />
                   </label>
                   <div className="control">
                     <input
                       type={'checkbox'}
                       name={'checkbox02'}
                       onChange={this.handleChange}
-                      id={'email'}
                       required={false}
                     />
                     <span>
@@ -127,15 +125,14 @@ export default class Index extends React.Component {
                 </div>
 
                 <div className="field">
-                    <label className="checkbox is-hidden" htmlFor={'checkbox03'}>
-                        &nbsp;<FormattedMessage id="contact-checkbox03" />
+                    <label className="label is-hidden" htmlFor={'checkbox03'}>
+                        <FormattedMessage id="contact-checkbox03" />
                     </label>
                   <div className="control">
                     <input
                       type={'checkbox'}
                       name={'checkbox03'}
                       onChange={this.handleChange}
-                      id={'email'}
                       required={false}
                     />
                     <span>
@@ -145,15 +142,14 @@ export default class Index extends React.Component {
                 </div>
 
                 <div className="field">
-                    <label className="checkbox is-hidden" htmlFor={'checkbox04'}>
-                        &nbsp;<FormattedMessage id="contact-checkbox04" />
+                    <label className="label is-hidden" htmlFor={'checkbox04'}>
+                        <FormattedMessage id="contact-checkbox04" />
                     </label>
                   <div className="control">
                     <input
                       type={'checkbox'}
                       name={'checkbox04'}
                       onChange={this.handleChange}
-                      id={'email'}
                       required={false}
                     />
                     <span>
@@ -163,15 +159,14 @@ export default class Index extends React.Component {
                 </div>
 
                 <div className="field">
-                    <label className="checkbox is-hidden" htmlFor={'checkbox05'}>
-                        &nbsp;<FormattedMessage id="contact-checkbox05" />
+                    <label className="label is-hidden" htmlFor={'checkbox05'}>
+                        <FormattedMessage id="contact-checkbox05" />
                     </label>
                   <div className="control">
                     <input
                       type={'checkbox'}
                       name={'checkbox05'}
                       onChange={this.handleChange}
-                      id={'email'}
                       required={false}
                     />
                     <span>
