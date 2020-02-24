@@ -16,7 +16,7 @@ class News extends React.Component {
             <div className="columns is-mobile overflow-scroll">
                 {posts &&
                 posts.map(({ node: post }) => (
-                    <div className="is-parent column min-width-1" key={post.id}>
+                    <div className="is-parent column min-width-1 max-width-2" key={post.id}>
                         <Link to={post.fields.slug} className="color-white">
 
                             <article

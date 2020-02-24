@@ -16,12 +16,28 @@
         "matchPath": "/en/contact/file-upload/"
     },
     {
+        "path": "/ja/tags/インタビュー/",
+        "matchPath": "/ja/tags/インタビュー/"
+    },
+    {
+        "path": "/en/tags/インタビュー/",
+        "matchPath": "/en/tags/インタビュー/"
+    },
+    {
         "path": "/ja/tags/news/",
         "matchPath": "/ja/tags/news/"
     },
     {
         "path": "/en/tags/news/",
         "matchPath": "/en/tags/news/"
+    },
+    {
+        "path": "/ja/blog/2020-02-24-it留学卒業生インタビュー「初心者未経験からit企業へ」/",
+        "matchPath": "/ja/blog/2020-02-24-it留学卒業生インタビュー「初心者未経験からit企業へ」/"
+    },
+    {
+        "path": "/en/blog/2020-02-24-it留学卒業生インタビュー「初心者未経験からit企業へ」/",
+        "matchPath": "/en/blog/2020-02-24-it留学卒業生インタビュー「初心者未経験からit企業へ」/"
     },
     {
         "path": "/ja/blog/2019-12-23-booking-com-ゲスト・レビュー・アワードを受賞しました！/",

@@ -24,7 +24,7 @@ const Tetete = (props) => {
     return (
     <Layout>
         <Hero />
-        {isEnglish ? "" : "" }
+        {isEnglish ? "" : <News /> }
         <div className="margin-top-2" />
         <About />
         <Questions />
