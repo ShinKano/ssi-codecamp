@@ -29,8 +29,7 @@ const HeroOnline = () => {
                     <div className="hero-text column has-text-centered">
                         <h1 className="title color-white is-size-1">
                             <span className="inline-block">超本気 IT留学</span>
-                            <span className="inline-block">&nbsp;x&nbsp;</span>
-                            <span className="inline-block">オンライン授業</span>
+                            <span className="inline-block">オンライン</span>
                         </h1>
                         <h2 className="subtitle is-6 color-white has-text-weight-bold">
                             <span className="inline-block">
