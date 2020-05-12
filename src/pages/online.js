@@ -4,6 +4,7 @@ import Layout from '../components/Layout'
 import HeroOnline from '../components/HeroOnline'
 import Greeting from '../components/Greeting'
 import FeaturesOnline from '../components/FeaturesOnline'
+import JapaneseSupportOnline from '../components/JapaneseSupportOnline'
 import PlaceOnline from '../components/PlaceOnline'
 import FeeOnline from '../components/FeeOnline'
 
@@ -17,6 +18,7 @@ const Online = () => {
             <HeroOnline />
             <Greeting />
             <FeaturesOnline />
+            <JapaneseSupportOnline />
             <PlaceOnline />
             <FeeOnline />
             {/* <Questions />

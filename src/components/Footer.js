@@ -28,16 +28,15 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     
-                    {/* <li>
+                    <li>
                       <a
                         className="navbar-item footer-item"
-                        href="/calender"
-                        target="_blank"
+                        href="/online"
                         rel="noopener noreferrer"
                       >
                         <FormattedMessage id="nav03" />
                       </a>
-                    </li> */}
+                    </li>
                   </ul>
                 </section>
               </div>

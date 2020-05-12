@@ -8,7 +8,7 @@ import DotsAndLines from '../components/DotsAndLines'
 
 
 const BackgroundImage = styled.section`
-    background-color: #400;
+    background-color: #e49356;
     /* background-image: url(${bgImage}); */
     background-position: center;
     background-size: cover;

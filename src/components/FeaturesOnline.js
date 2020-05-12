@@ -15,7 +15,7 @@ const FeaturesOnline = () => {
                         オンラインIT留学
                     </span>
                     <span className="inline-block">
-                        つの特徴
+                        5つの特徴
                     </span>
                 </h2>
 
@@ -27,13 +27,13 @@ const FeaturesOnline = () => {
                         <p className="title is-6">
                         PCがあればどこからでも。
                         </p>
-                        <p className="margin-top">
+                        <p>
                         外出自粛期間中でも、安心して受講することができます。
                         </p>
-                        <p className="title is-6 margin-top">
+                        <p className="title is-6 margin-top-2">
                         もちろん授業は英語環境
                         </p>
-                        <p className="margin-top">
+                        <p>
                         全国的にもオンラインで提供の少ない「英語でプログラミングを学ぶ」スタイルを
                         日本にいながら経験できます。
                         </p>
@@ -59,14 +59,14 @@ const FeaturesOnline = () => {
                         <p className="title is-6">
                             講師にチャットやオンライン通話で好きなだけ質問ができます。
                         </p>
-                        <p className="margin-top">
+                        <p>
                             講師は質問の答えだけでなく、卒業後に自分で調べて解決できるよう
                             エラーへの対処方法やリサーチの手法もコーチングします。
                         </p>
-                        <p className="title is-6 margin-top">
+                        <p className="title is-6 margin-top-2">
                             自習や復習もしやすい
                         </p>
-                        <p className="margin-top">
+                        <p>
                             ビデオは全て録画するので、復習しやすい。
                             チャットも同様にもちろんログが残るので、自己学習の手助けにもなります。
                         </p>
@@ -80,19 +80,19 @@ const FeaturesOnline = () => {
                             英語環境で学習
                         </h3>
                         <p className="title is-6">
-                            21世紀の必須スキルを同時に学ぶ。
+                            21世紀の必須スキルを2つ同時に学ぶ。
                         </p>
-                        <p className="margin-top">
+                        <p>
                             オンラインでのやりとりは全て英語の練習になります。
-                            プログラミングを学習しながら、今後世界中のIT企業で働くために必須な能力が見につきます。
+                            プログラミングを学習しながら、今後世界中のIT企業で働くために必須な能力が身につきます。
                         </p>
-                        <p className="title is-6 margin-top">
+                        <p className="title is-6 margin-top-2">
                             エンジニアに英語は必須
                         </p>
-                        <p className="margin-top">
+                        <p>
                             エンジニアとして働く場合、日本企業であっても英語は必要です。
-                            エラーの対応や、ドキュメントはほぼ英語になりますので、実務と英語は切っても切れません。
-                            逆に、英語が出来ると他の日本時よりも素早い実装が可能になります。
+                            エラーの対応や、ドキュメントはほぼ英語。実務と英語は切っても切れません。
+                            逆に、英語が出来ると他の日本人よりも素早い実装が可能になります。
                         </p>
                     </div>
                     <div className="column is-6">
@@ -116,14 +116,14 @@ const FeaturesOnline = () => {
                         <p className="title is-6">
                             履歴書・面接対策も指導。
                         </p>
-                        <p className="margin-top">
+                        <p>
                             卒業後の就職・転職のための資料作りや面接対策もサポート。
                             あとは希望の会社に応募するだけ。
                         </p>
-                        <p className="title is-6 margin-top">
+                        <p className="title is-6 margin-top-2">
                             次の将来に繋がる実績を作る。
                         </p>
-                        <p className="margin-top">
+                        <p>
                             プログラミングの基礎中の基礎から、
                             APIやデータベースのつなぎこみなど実務に近い内容も丁寧に指導します。
                             簡単なWebサイト制作だけでなく、機能をもったアプリケーションの開発を経験できます。
@@ -142,7 +142,7 @@ const FeaturesOnline = () => {
                         </p>
                         <p className="margin-top">
                             卒業生はなんどでもITブートキャンプに参加できたり、講師に質問ができます。
-                            フリーランスになっても講師はいつでもあなたの相談にのってくれます。
+                            フリーランスになっても講師はいつでもあなたの相談に乗ってくれます。
                         </p>
                         
                     </div>
