@@ -3,6 +3,8 @@ import React from 'react'
 import Layout from '../components/Layout'
 import HeroOnline from '../components/HeroOnline'
 import Greeting from '../components/Greeting'
+import About from '../components/About'
+import Questions from '../components/Questions'
 import FeaturesOnline from '../components/FeaturesOnline'
 import JapaneseSupportOnline from '../components/JapaneseSupportOnline'
 import PlaceOnline from '../components/PlaceOnline'
@@ -17,6 +19,8 @@ const Online = () => {
         <Layout>
             <HeroOnline />
             <Greeting />
+            <About />
+            <Questions />
             <FeaturesOnline />
             <JapaneseSupportOnline />
             <PlaceOnline />
