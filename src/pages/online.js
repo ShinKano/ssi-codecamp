@@ -6,6 +6,7 @@ import Greeting from '../components/Greeting'
 import About from '../components/About'
 import Questions from '../components/Questions'
 import FeaturesOnline from '../components/FeaturesOnline'
+import Curriculums from '../components/Curriculums'
 import JapaneseSupportOnline from '../components/JapaneseSupportOnline'
 import PlaceOnline from '../components/PlaceOnline'
 import FeeOnline from '../components/FeeOnline'
@@ -22,11 +23,11 @@ const Online = () => {
             <About />
             <Questions />
             <FeaturesOnline />
+            <Curriculums />
             <JapaneseSupportOnline />
             <PlaceOnline />
             <FeeOnline />
             {/* <Questions />
-            <Curriculums />
             <Trainer />
             <Fee />
             <Scholarship />

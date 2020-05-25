@@ -16,6 +16,10 @@
         "matchPath": "/en/blog/2020-03-28-it留学しているひとに伝えたい10のコト/"
     },
     {
+        "path": "/en/blog/2020-05-15-プログラミングするなら英語はほぼ必須/",
+        "matchPath": "/en/blog/2020-05-15-プログラミングするなら英語はほぼ必須/"
+    },
+    {
         "path": "/en/contact/file-upload/",
         "matchPath": "/en/contact/file-upload/"
     },
@@ -36,6 +40,10 @@
         "matchPath": "/en/tags/営業状況/"
     },
     {
+        "path": "/en/tags/英語/",
+        "matchPath": "/en/tags/英語/"
+    },
+    {
         "path": "/ja/blog/2020-02-24-it留学はインドとフィリピンどっちがオススメなのか？【徹底比較】/",
         "matchPath": "/ja/blog/2020-02-24-it留学はインドとフィリピンどっちがオススメなのか？【徹底比較】/"
     },
@@ -50,6 +58,10 @@
     {
         "path": "/ja/blog/2020-03-28-it留学しているひとに伝えたい10のコト/",
         "matchPath": "/ja/blog/2020-03-28-it留学しているひとに伝えたい10のコト/"
+    },
+    {
+        "path": "/ja/blog/2020-05-15-プログラミングするなら英語はほぼ必須/",
+        "matchPath": "/ja/blog/2020-05-15-プログラミングするなら英語はほぼ必須/"
     },
     {
         "path": "/ja/contact/file-upload/",
@@ -70,6 +82,10 @@
     {
         "path": "/ja/tags/営業状況/",
         "matchPath": "/ja/tags/営業状況/"
+    },
+    {
+        "path": "/ja/tags/英語/",
+        "matchPath": "/ja/tags/英語/"
     },
     {
         "path": "/en/404.html",
