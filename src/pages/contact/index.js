@@ -93,14 +93,14 @@ export default class Index extends React.Component {
 
                 <fieldset className="fieldset">
                     <legend><FormattedMessage id="contact-checkbox-legend" /></legend>
-                    <p>
+                    {/* <p>
                         <label htmlFor={'checkbox01'}>
                             <input type="checkbox"
                                 onChange={this.handleChange}
                                 name={'checkbox01'} value="とりあえず詳しい資料がほしい。" />
                             <FormattedMessage id="contact-checkbox01" />
                         </label>
-                    </p>
+                    </p> */}
                     <p>
                         <label htmlFor={'checkbox02'}>
                             <input type="checkbox"
